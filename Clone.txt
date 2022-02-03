@@ -1,1 +1,101 @@
 Iconfigured with gitbash.
+
+Download and install git (https://git-scm.com/downloads)  
+Git bash interface
+Git commands
+Create local reposotory
+Connect to remote repository
+Push the file into GitHub
+
+Goto command prompt -> type Git -version
+                       type git help config
+
+Create local repository ->mkdir Manual
+                        ->  cd manual
+                         ->git init 
+                         ->git status
+                         ->git add demo12.txt
+                         ->git commit -m "committed" 
+
+we need to link git to github account:
+                                       ->git config --global user.username kalpana101 
+
+
+
+Go to GitHub.com: Create new repository (This is our remote repository)
+
+                                  ->git remote add origin (copy and paste remote repository here) then hit enter
+                                     (now local repositry and remote repository linked.)
+                                         
+
+  Push the file into GitHub:                           
+                              ->git push origin master
+
+
+
+***********************************************************
+1.git clone https://github.com/Kalpana101/eclipse1.git
+2.cd RepositoryName :go to directory
+3.git checkout -b branchName : create branch name
+4.git add . :
+5.git commit -m "committed"
+6.git push origin branchName
+
+
+**********************************************************
+
+
+
+git user: Kalpana
+gitHub username: Kalpana101
+Password:Found!23
+ git checkout -b git add .
+
+
+*****************************************8888888
+https://www.youtube.com/watch?v=LPT7v69guVY ( How to push the code from eclipse to git) ***important
+
+https://www.youtube.com/watch?v=2j7fD92g-gE&t=275s (Import git and git commands)
+
+*********************************************************
+
+cd test
+git mkdir Test
+git help config 
+
+git mkdir test
+
+git init
+
+git status
+
+
+git add file_Name
+
+git commit -m "test committed"
+
+git config --global user.username kalpana101
+
+go to gitHub create new repository and copy the link 
+
+git remote add origin (paste the link here)
+
+git push origin master
+
+
+(if it give error
+
+git config --global user.email "baskalpa@yahoo.com"
+git config --local user.name "kalpana"
+
+now we can  commit ( git commit -m "test committed")
+
+https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-set-git-config-username-and-email-fields-in-global-and-local-configuration-files)
+
+git remote add origin
+
+git push origin master
+
+*****************************
+
+https://www.youtube.com/watch?v=gT9qnZi3f74 (Jenkins: How to install and other details)
