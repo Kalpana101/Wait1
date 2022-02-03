@@ -47,8 +47,8 @@ Go to GitHub.com: Create new repository (This is our remote repository)
 
 
 git user: Kalpana
-gitHub username: Kalpana101
-Password:Found!23
+gitHub username: 
+Password:
  git checkout -b git add .
 
 
